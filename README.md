@@ -5,10 +5,10 @@ The models were evaluated using standard object detection metrics: mAP, Precisio
 
 | Algorithm     | Accuracy metrics                                           | Test Image          
 ----------------|:----------------------------------------------------------:|-------------------
-| Roboflow      |  mAP@50: 84.7% <br> Precision: 85.8% <br> Recall: 75.6%    | ![Roboflow](rb.png)
-|  YOLOv8       | mAP@50: 83.77% <br> Precision: 88.44% <br> Recall: 72.88%  |![YOLOv8](y8.png)
-| YOLOv10       | mAP@50: 73.86% <br> Precision: 77.12% <br> Recall: 64.25%  |![YOLOv10](y10.png)   
-| Faster R-CNN  | mAP@50: 80.45% <br> Precision: 37.72% <br> Recall: 47.12%  |![Faster R-CNN](cnn.png)
+| Roboflow      |  mAP@50: 84.7% <br> Precision: 85.8% <br> Recall: 75.6%    |<img src="rb.png" alt="Roboflow" width="200"/>
+|  YOLOv8       | mAP@50: 83.77% <br> Precision: 88.44% <br> Recall: 72.88%  |<img src="y8.png" alt="YOLO8" width="200"/>
+| YOLOv10       | mAP@50: 73.86% <br> Precision: 77.12% <br> Recall: 64.25%  |<img src="y10.png" alt="YOLO10" width="200"/>   
+| Faster R-CNN  | mAP@50: 80.45% <br> Precision: 37.72% <br> Recall: 47.12%  |<img src="cnn.png" alt="Faster R-CNN" width="200"/>
 
 # best mosel Based on result : 
 The Roboflow baseline achieved the best overall performance with balanced Precision and Recall. YOLOv8 was very close and had the highest Precision, but lower Recall. Faster R-CNN achieved an acceptable mAP but showed very low Precision and Recall, while YOLOv10 performed weaker overall. <br>
