@@ -12,7 +12,8 @@ The models were evaluated using standard object detection metrics: mAP, Precisio
 
 # best mosel Based on result : 
 The Roboflow baseline achieved the best overall performance with balanced Precision and Recall. YOLOv8 was very close and had the highest Precision, but lower Recall. Faster R-CNN achieved an acceptable mAP but showed very low Precision and Recall, while YOLOv10 performed weaker overall. <br>
-This means that the Roboflow bassline is the most accurate, followed by YOLOv8.
+This means that the Roboflow bassline is the most accurate, followed by YOLOv8. <br> <br>
+In conclusion, this comparison highlights each algorithm and the importance of evaluating model using multiple metrics rather than focusing on a single metrics.
 
       
 
